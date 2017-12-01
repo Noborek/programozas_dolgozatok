@@ -1,0 +1,65 @@
+/*csslint  order-alphabetical:false*/
+body { 
+    background-color: #D6E3F2
+}
+
+.fo-menu {
+    background-color: #262F73;
+    height:80px;
+    width: 1000px;
+    
+}
+
+.menupont {
+    height: 50px;
+/*    körbe mindenhol 10px a margin   */
+/*    margin: 10px;*/
+/*
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+*/
+/*    Az előző három sort így tudjuk rövidíteni margónál*/
+/*    fölül,jobbra,alul,balra (óramutatójárásávan megfelelően)*/
+/*    margin:10px 0 10px 10px;*/
+    
+    background-color: #45698E;
+    color: #D6E3F2;
+    display: inline-block;
+
+/*
+    padding-top: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom
+*/
+/*    AZ előző három sort így tudjuk lerövidíteni (óramutatójárásával megfelelően ) Fülöl,jobbra,alul,balra*/
+    padding: 30px 54px 0 54px;
+}
+.tartalom{
+    background-color: #45698E;
+    height: 1000px; /*Ez csak azért kell hogy scrollbar megjelenjen*/
+    color: white;
+    width: 960px;
+    padding: 20px;
+}
+
+.banner {
+    background-color: #262F73;
+    height:400px;
+    width: 900px;   
+    padding-left: 100px;
+    margin-bottom: 20px;
+}
+
+.bannerdobozok {
+    height: 250px;
+    width: 200px;
+    background-color: green;
+    color: black;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+}
